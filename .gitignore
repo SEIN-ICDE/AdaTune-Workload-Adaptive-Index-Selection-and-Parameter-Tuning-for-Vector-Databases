@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+# numpy / HDF5 outputs
+*.npy
+*.hdf5
+*.h5
+
+# cache and results
+preprocess_output/
+cache/
+results/
+
+# misc
+.DS_Store
+*.log
