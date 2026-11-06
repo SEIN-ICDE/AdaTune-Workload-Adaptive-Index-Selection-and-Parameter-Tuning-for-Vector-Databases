@@ -1,3 +1,5 @@
+# AdaTune: Workload-Adaptive Index Selection and Parameter Tuning for Vector Databases
+
 AdaTune tunes a [Milvus](https://milvus.io) deployment to reach a target **Recall@10** at the lowest latency it can find.
 
   - **ANN-hard datasets** (GIST, Wikipedia) are first projected to 128-d by a **PCA + weighted residual GNN**. Recall is still measured against the original-space ground truth.
